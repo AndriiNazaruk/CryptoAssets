@@ -9,7 +9,15 @@ for(let k in read) {
     }
 }
 }
+
+let tr=document.getElementById("tbody");
+tr.appendChild("tr");
+tr.innerText("Roro");
+let tr=document.createElement("tr");
+
+
 let th=document.createElement("th");
-th.style.background="blue";
-th.innerText="eee";
+
+tr.appendChild("th");
+
 
