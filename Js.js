@@ -1,3 +1,5 @@
+alert("Hello World");
+
 async function getJson(){
 
 let URL="https://poloniex.com/public?command=returnCurrencies";
